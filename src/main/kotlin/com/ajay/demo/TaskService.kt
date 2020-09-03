@@ -9,11 +9,11 @@ class TaskService {
         var username: String
         var message: String = "Welcome"
         if (num == 7)
-            username = "Ajay"
+            username = "John"
         else if (num == 5)
-            username = "Geethika"
+            username = "Jane"
         else
-            username = "Arya"
+            username = "Jake"
 
         return username
 
